@@ -1,0 +1,57 @@
+/* Style for the main container */
+.cyclePurchase {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #1c2331, #000000); /* space background gradient */
+  color: #fff; /* text color */
+  min-width: 80%;
+  align-items: center;
+  border-radius: 1rem; /* rounded corners */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3); /* add shadow */
+  padding: 2rem; /* add padding */
+/*   margin-bottom: 2rem; /* add margin */
+}
+
+
+/* Style for the title */
+.cyclePurchase h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* Style for the input field */
+.cyclePurchase input {
+  margin-bottom: 30px;
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the button */
+.cyclePurchase button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #461fc4; /* button background color */
+  color: #fff; /* button text color */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.cyclePurchase button:hover {
+  background-color: #461fc4; /* button background color on hover */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.cyclePurchase a {
+  margin-top: 10px;
+}

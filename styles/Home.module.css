@@ -1,0 +1,74 @@
+.container {
+  jutify-content: center;
+  display: flex;
+/*   color: #326ffc; */
+  color: #ff5b19;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  padding: 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px; /* fixed width for computer */
+}
+
+/* Media query to make the .main element full width on phones */
+@media only screen and (max-width: 767px) {
+  .main {
+    width: 100%; /* full width for phones */
+  }
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #461fc4;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 3rem;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.main p {
+  text-align: center;
+}

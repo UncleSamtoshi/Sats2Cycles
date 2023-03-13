@@ -1,0 +1,18 @@
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #040926, #140031, #2a0845); /* space background gradient */
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #040926; /* space background color */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

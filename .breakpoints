@@ -1,0 +1,18 @@
+{
+  "files": {
+    "services/replit.ts": [
+      {
+        "id": "3425fcec-4ad8-440b-b2e7-b9336d265325",
+        "line": 13,
+        "version": 811,
+        "index": 515
+      },
+      {
+        "id": "24196029-9483-49dd-9d72-d8b2fb9eadb4",
+        "line": 59,
+        "version": 811,
+        "index": 1236
+      }
+    ]
+  }
+}
